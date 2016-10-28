@@ -1,18 +1,19 @@
 package me.zhous.objectpool.activity;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 
-import me.zhous.base.activity.AppBaseActivity;
+import me.zhous.base.activity.BaseActivity;
 import me.zhous.objectpool.R;
 import me.zhous.objectpool.runnable.TestObjectPoolRunnable;
 
-public class ObjectPoolActivity extends AppBaseActivity {
+public class ObjectPoolActivity extends BaseActivity {
 
     final int TheardSize = 5;
     boolean userObjectPool = false;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         doMenoryThrashing();

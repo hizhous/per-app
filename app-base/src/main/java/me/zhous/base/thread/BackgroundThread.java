@@ -33,7 +33,6 @@ public class BackgroundThread extends HandlerThread implements IBackgroundThread
                 }
             }
         }
-
         return bgThread;
     }
 

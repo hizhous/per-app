@@ -1,1 +1,1 @@
-include ':object-pool', ':app-base'
+include ':object-pool', ':app-base', ':app', ':app'
