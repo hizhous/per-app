@@ -49,3 +49,4 @@ Temporary Items
 /build
 /.idea
 /.gradle
+/object-pool/object-pool.iml
