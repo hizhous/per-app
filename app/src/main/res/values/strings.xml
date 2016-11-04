@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">App</string>
+    <string name="show_notification">发送通知</string>
+    <string name="second_activity">第二个Activity</string>
 </resources>
