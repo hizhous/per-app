@@ -2,4 +2,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:title="PhoneInfo" android:id="@+id/m_p" />
     <item android:title="SystemInfo" android:id="@+id/m_s"/>
+    <item android:title="ChangeView" android:id="@+id/m_c"/>
 </menu>
